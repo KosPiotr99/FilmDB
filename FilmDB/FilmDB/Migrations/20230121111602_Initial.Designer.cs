@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FilmDB.Migrations
 {
     [DbContext(typeof(FilmContext))]
-    [Migration("20230119200037_Init")]
-    partial class Init
+    [Migration("20230121111602_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
